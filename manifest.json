@@ -1,0 +1,22 @@
+{
+  "name": "Village Mart",
+  "short_name": "VillageMart",
+  "description": "Your trusted local Kiryana & Pashu Aahar store. Check daily rates and order for home delivery.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#16a34a",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
