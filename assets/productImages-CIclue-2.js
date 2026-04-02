@@ -1,0 +1,6 @@
+import{t as e}from"./createLucideIcon-C5Bf0we8.js";var t=e(`minus`,[[`path`,{d:`M5 12h14`,key:`1ays0h`}]]),n={"toor-dal":`🫘`,rice:`🍚`,sugar:`🍬`,oil:`🫗`,atta:`🌾`,"chana-dal":`🫘`,salt:`🧂`,tea:`☕`,"sarson-khal":`🐄`,"buffalo-feed":`🐃`,"binola-khal":`🌻`,chokar:`🌾`,"mineral-mix":`💊`,detergent:`🧴`,soap:`🧼`,shampoo:`🧴`,matchbox:`🔥`,candles:`🕯️`},r={kiryana:[`#f0fdf4`,`#0C831F`],"pashu-aahar":[`#fff7ed`,`#ea580c`],"daily-needs":[`#eff6ff`,`#2563eb`]};function i(e){let t=n[e.image?.replace(`/images/`,``).replace(`.jpg`,``)||`default`]||`📦`,[i,a]=r[e.category]||[`#f8fafc`,`#334155`],o=`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+    <rect width="200" height="200" rx="12" fill="${i}"/>
+    <text x="100" y="85" text-anchor="middle" font-size="56">${t}</text>
+    <text x="100" y="125" text-anchor="middle" fill="${a}" font-family="system-ui,sans-serif" font-size="13" font-weight="600">${e.nameHi||e.name}</text>
+    <text x="100" y="148" text-anchor="middle" fill="#94a3b8" font-family="system-ui,sans-serif" font-size="11">${e.unit?`₹`+e.price+`/`+e.unit:``}</text>
+  </svg>`;return`data:image/svg+xml,${encodeURIComponent(o)}`}export{t as n,i as t};
